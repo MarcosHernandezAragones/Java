@@ -17,6 +17,7 @@ public class Ejercicio_1_0_11 {
 		if (bachiller == true) {
 			System.out.println("Puedes entrar");
 		} else {
+			
 			System.out.println("Has aprobado La prueba de acceso");
 			prueba = leer.nextBoolean();
 			if (prueba==true) {

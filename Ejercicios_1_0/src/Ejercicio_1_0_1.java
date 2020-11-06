@@ -21,6 +21,17 @@ public class Ejercicio_1_0_1 {
 		
 		//caracteres
 		String nombre="";
+		char letra;
+		letra='a';
+		
+		//subcadena
+		System.out.println(nombre.substring(5,9));
+		//Sacar texto desde donde quieres hasta el final para el primero es 0,1
+		
+		for (int i = 0; i < nombre.length(); i++) {
+			System.out.println(nombre.substring(i,i+1));
+		};
+		
 		
 		//logicos
 		boolean bandera=true;
