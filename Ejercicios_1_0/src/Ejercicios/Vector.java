@@ -3,8 +3,26 @@ package Ejercicios;
 import java.util.Random;
 
 public class Vector {
+	
+	public static int numPar(int num1,int num2) {
+		//int sol=0;
+		
+		for (int i = num1; i <num2; i++) {
+			if (i%2==0) {
+				//sol=i;
+				//break;
+				return i;
+			}
+		}
+		
+		return -1;
+		
+	}
 
 	public static void main(String[] args) {
+		
+			
+		
 		int vNum[];
 		int mNum[][];
 		int tam = 10;
