@@ -50,9 +50,9 @@ public class Ejercicio_1_0_1 {
 		num3=num1;
 		num1=num2;
 		num2=num3;
+				
 		
-		
-		System.out.println("el primer número ahora es  "+num1+" y el segundo número es "+num2);
+		System.out.println("el primer n�mero ahora es  "+num1+" y el segundo número es "+num2);
 		
 	}
 
